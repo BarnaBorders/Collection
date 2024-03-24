@@ -1,1 +1,104 @@
-# Collection
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarnaBorders - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .bio {
+            margin-bottom: 20px;
+        }
+        .artwork {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .artwork img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact-info {
+            margin-top: 30px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .payment-links {
+            margin-top: 20px;
+        }
+        .payment-links a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .payment-links a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BarnaBorders</h1>
+        <h2>Portfolio</h2>
+    </header>
+    <div class="container">
+        <div class="bio">
+            <h2>Bienvenue sur mon portfolio !</h2>
+            <p>Je suis BarnaBorders, un artiste passionné par la photographie, la galerie d'art et le street art.</p>
+            <p>Explorez mes créations ci-dessous et n'hésitez pas à me contacter pour toute collaboration ou demande spécifique.</p>
+        </div>
+        <div class="artwork">
+            <img src="lien_vers_image1.jpg" alt="Artwork 1">
+            <img src="lien_vers_image2.jpg" alt="Artwork 2">
+            <img src="lien_vers_image3.jpg" alt="Artwork 3">
+            <!-- Ajoutez autant d'images que vous le souhaitez -->
+        </div>
+        <div class="contact-info">
+            <h3>Contact :</h3>
+            <p><strong>Email :</strong> contact@barnaborders.com</p>
+            <p><strong>Téléphone :</strong> +33 123 456 789</p>
+            <p><strong>Adresse :</strong> 123 Rue de l'Art, 75001 Paris</p>
+        </div>
+        <div class="payment-links">
+            <h3>Liens de Paiement :</h3>
+            <a href="lien_paypal" target="_blank">PayPal</a>
+            <a href="lien_stripe" target="_blank">Stripe</a>
+            <!-- Ajoutez d'autres liens de paiement -->
+        </div>
+    </div>
+</body>
+</html>
